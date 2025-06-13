@@ -1,0 +1,81 @@
+// Este arquivo contém dados mockados (fictícios) de cabeleireiros.
+// É usado como fonte de dados inicial para o aplicativo, simulando dados que viriam de uma API.
+// Cada objeto na lista representa um cabeleireiro com suas informações.
+// Você pode adicionar mais objetos aqui para testar a lista, busca e filtros com mais dados.
+[
+  {
+    // ID único do cabeleireiro
+    "id": "1",
+    // Nome do estabelecimento
+    "name": "Salão Elegance",
+    // Endereço completo ou parcial
+    "address": "Rua das Flores, 123 - Centro, São Paulo",
+    // Coordenadas geográficas (latitude e longitude) para exibição no mapa
+    "latitude": -23.550520,
+    "longitude": -46.633308,
+    // Número de telefone para contato
+    "phone": "(11) 99999-9999",
+    // Horário de funcionamento
+    "openingHours": "Seg-Sex: 09:00-20:00, Sáb: 09:00-18:00",
+    // Lista de serviços oferecidos
+    "services": ["Corte Masculino", "Corte Feminino", "Coloração"],
+    // Avaliação média (escala de 0 a 5)
+    "rating": 4.5,
+    // Status de abertura (true para aberto, false para fechado)
+    "isOpen": true,
+    // URL da imagem do estabelecimento (pode ser vazia se não houver)
+    "imageUrl": ""
+  },
+  {
+    "id": "2",
+    "name": "Barbearia Vintage",
+    "address": "Av. Paulista, 1000 - Bela Vista, São Paulo",
+    "latitude": -23.563210,
+    "longitude": -46.654190,
+    "phone": "(11) 98888-8888",
+    "openingHours": "Seg-Sáb: 10:00-22:00",
+    "services": ["Corte Masculino", "Barba"],
+    "rating": 4.8,
+    "isOpen": true,
+    "imageUrl": ""
+  },
+  {
+    "id": "3",
+    "name": "Studio Hair",
+    "address": "Rua Augusta, 500 - Consolação, São Paulo",
+    "latitude": -23.547890,
+    "longitude": -46.639120,
+    "phone": "(11) 97777-7777",
+    "openingHours": "Ter-Sáb: 09:00-19:00",
+    "services": ["Corte Feminino", "Coloração", "Mechas"],
+    "rating": 4.2,
+    "isOpen": false,
+    "imageUrl": ""
+  },
+  {
+    "id": "4",
+    "name": "Barbearia do João",
+    "address": "Rua A, 50 - Bairro Alegre, Campinas",
+    "latitude": -22.905600,
+    "longitude": -47.060800,
+    "phone": "(19) 91111-1111",
+    "openingHours": "Seg-Sex: 08:00-18:00",
+    "services": ["Corte Masculino", "Barba Rápida"],
+    "rating": 4.0,
+    "isOpen": true,
+    "imageUrl": ""
+  },
+  {
+    "id": "5",
+    "name": "Salão Beleza Total",
+    "address": "Av. Principal, 888 - Centro, Rio de Janeiro",
+    "latitude": -22.908333,
+    "longitude": -43.196388,
+    "phone": "(21) 92222-2222",
+    "openingHours": "Seg-Sáb: 09:30-20:30",
+    "services": ["Penteado", "Maquiagem"],
+    "rating": 4.7,
+    "isOpen": true,
+    "imageUrl": ""
+  }
+] 

@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CabelereiroApp",
+    "slug": "cabelereiroapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cabelereiroapp",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Este aplicativo precisa da sua localização para mostrar cabeleireiros próximos a você.",
+        "NSLocationAlwaysUsageDescription": "Este aplicativo precisa da sua localização para mostrar cabeleireiros próximos a você."
+      }
+    },
+    "android": {
+      "package": "com.cabelereiroapp",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Este aplicativo precisa da sua localização para mostrar cabeleireiros próximos a você."
+        }
+      ]
+    ]
+  }
+} 
