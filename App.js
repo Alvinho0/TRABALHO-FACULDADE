@@ -1,8 +1,8 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
-import { LocationProvider } from './src/context/LocationContext';
-import { BarbersProvider } from './src/context/BarbersContext';
-import AppNavigator from './src/navigation/AppNavigator';
+import { LocationProvider } from './LocationContext';
+import { BarbersProvider } from './BarbersContext';
+import AppNavigator from './AppNavigator';
 
 export default function App() {
   return (
